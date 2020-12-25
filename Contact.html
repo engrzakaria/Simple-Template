@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Task2 Div Template</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="headingtop"><h1>Zakaria's Blog</h1></div>
+        <div class="profile"><p>Zakaria</p></div>
+        <div class="wellcome"><p>Wellcome to My Blog...</p></div>
+        <div class="nav">
+            <div class="navr">
+                <ul>
+                    <li><a href="Index.html" target="_blank" title="Go Home">Home</a></li>
+                    <li><a href="About.html" target="_blank" title="About">About</a></li>
+                    <li><a href="Contact.html" target="_blank" title="Contact Me">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mainbody">
+            <h2 class="con">Contact with Me</h2>
+             <!-- Form Start -->
+             <form align="center"action="">
+                First Name:<input type="text" name="firstname" value="" class="Fn" required>
+                Last Name:<input type="text" name="lastname" value=""  required><br><br>
+                E-mail:<input type="email" name="email" value=""  required>
+                Mobile Number:<input type="number" name="mobilenumber" value=""  required><br><br>
+                Date of Birth:<input class="dob" type="date" name="dateofbirth" value=""  required>
+                Where are you from:
+                    <!-- Drop-Down List Start-->
+                    <select class="dropdown">
+                        <option>Select</option>
+                        <option>Dhaka</option>
+                        <option>Comolla</option>
+                        <option>Khulna</option>
+                        <option>Barishal</option>
+                    </select><br><br>
+                    <!-- Drop-Down List End -->
+                Choose Your Password:<input type="password" name="password" value=""  required><br><br>
+                <!-- Radio Button Start -->
+                Select Your Gender:<input type="radio" name="Gender" value=""  required>
+                                        <label for="male">Male</label>
+                                    <input type="radio" name="Gender" value=""  required>
+                                        <label for="female">Female</label>
+                                    <input type="radio" name="Gender" value=""  required>
+                                        <label for="others">Others</label><br><br>
+                <!-- Radio Button End -->
+                <strong>What type of do you read?</strong><br><br>
+                <!-- Checkbox Start -->
+                                   <input type="checkbox" name="readtype" value="" >
+                                        <label for="design">Design</label>
+                                   <input type="checkbox" name="readtype" value="" >
+                                        <label for="codding">Codding</label> 
+                                   <input type="checkbox" name="readtype" value="" >
+                                        <label for="technews">Technews</label><br><br>
+                <!-- Checkbox End -->
+                <!-- Button Start -->
+                 <button type="submit" class="button">Submit</button>
+                 <button type="reset" class="button">Reset</button><br><br>
+                 <!-- Button End -->
+            </form>
+            <!-- Form End -->
+        </div>
+        <div class="footer">
+            <p>
+                Copyright &copy; Zian Co.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
